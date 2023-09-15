@@ -1,5 +1,6 @@
 import React from "react";
 import '../assets/css/Login.css'
+import {Link } from 'react-router-dom'
 
 
 const Login = () =>{
@@ -29,7 +30,7 @@ const Login = () =>{
                               <input type="password" placeholder="Type your password" name="password" onChange={handleOnChange}></input>
                               <a href="#">Forget Password?</a>
                               <button type="submit">LOGIN</button>
-                              <label className="sin">If you don't have account?<a href="Signup">SignUp</a></label>
+                              <Link to='/signup'>Already don't have account? SignUp</Link>
                         </div>    
                   </div>
                    
