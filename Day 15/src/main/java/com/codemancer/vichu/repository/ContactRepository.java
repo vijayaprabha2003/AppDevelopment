@@ -1,16 +1,8 @@
 package com.codemancer.vichu.repository;
 
-
-
 import org.springframework.data.jpa.repository.JpaRepository;
 
-
-
-
-
 import org.springframework.stereotype.Repository;
-
-
 
 import com.codemancer.vichu.model.*;
 
@@ -18,7 +10,7 @@ import com.codemancer.vichu.model.*;
 
 @Repository
 
-public interface ApplicationUserRepository extends JpaRepository<ApplicationUser, Integer>{
+public interface ContactRepository extends JpaRepository<Contact, Integer>{
 
 
 

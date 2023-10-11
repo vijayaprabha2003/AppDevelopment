@@ -34,7 +34,7 @@ public class ApplicationUser {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    private Long id;
+    private int id;
 
 
 
@@ -110,7 +110,7 @@ public class ApplicationUser {
 
 
 
-	public Long getUid() {
+	public int getId() {
 
 		return id;
 
@@ -118,7 +118,7 @@ public class ApplicationUser {
 
 
 
-	public void setUid(Long id) {
+	public void setId(int id) {
 
 		this.id = id;
 
@@ -318,7 +318,7 @@ public class ApplicationUser {
 
 
 
-	public ApplicationUser(Long id, String firstname, String lastname, int age, String gender, String email,
+	public ApplicationUser(int id, String firstname, String lastname, int age, String gender, String email,
 
 			String phone, String address, String martial, int totalinsurance, String insurancetype,
 
